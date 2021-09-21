@@ -1,0 +1,77 @@
+body {
+	background-color: #5109D1;
+	font-family: Sans serif;
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.brain-test {
+	flex: 0 1 400px;
+}
+
+
+input[type='button'] {
+	border: 0px;
+	border-radius: 50px;
+	color: white;
+	font-weight: bold;
+	padding: 4px 8px;
+	background: linear-gradient(to right, #FE9403 , #FE9403);
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: normal;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.section-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.description {
+	flex: 0 0 450px;
+	color: RGB(201, 184, 252);
+	z-index: 1;
+    margin-right: -69px;
+    margin-top: 45px;
+}
+
+.patented {
+	flex: 0 1 500px;
+	margin-right: 50px;
+}
+
+.picture-1 {
+	flex: 0 1 900px;
+	z-index: 0;
+}
+
+.section-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 50px 0px;
+}
